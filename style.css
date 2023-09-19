@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-left: 25px;
+}
+
+.headerHome__link
+{
+    color: #F25822;
+}
+.header__link{
+    color: #000;
+}
+.header {
+    padding-top: 37px;
+    padding-left: 500px;
+}
+.header__image{
+    padding-top: 26px;
+}
+.header_content{
+    display: flex;
+    margin-top: 16px;
+    margin-left: 375px;
+    margin-right: 315px;
+}
+.top__content{
+    display: flex;
+    margin-bottom: 16px;
+    margin-left: 373px;
+    margin-right: 330px;
+}
+.top__info{
+    margin-bottom: 27px;
+    margin-left: 16px;
+    margin-right: 41px;
+    font-size: 30px;
+    width: 522px;
+}
+.text{
+    color: #888;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 466px;
+}
+.title{
+    margin-top: 60px;
+    margin-bottom: 16px;
+}
+.top__buttons{
+    margin-top: 37px;
+    margin-bottom: 60px;
+}
+.center{
+    padding-left: calc(50% - 960px);
+    padding-right: calc(50% - 960px);
+}
+.button{
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    width: 140px;
+    height: 50px;
+    flex-shrink: 0;
+    border: none;
+}
+.top__link{
+    color: #AAA;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.button__text{
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.top__logos{
+    display: flex;
+    gap: 48px;
+    margin-left: 345px;
+    margin-top: 97px;
+}
